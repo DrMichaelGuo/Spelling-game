@@ -10,7 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
         "pacific",
         "council",
         "merciful",
-        "except"
+        "except",
+        "sensible",
+        "sackguard",
+        "satisfaction",
+        "scowled",
+        "scrabbled",
+        "separate",
+        "sensational",
+        "screamed",
+        "suggested"
     ];
     
     let words = [];
