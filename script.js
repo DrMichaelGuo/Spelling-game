@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Game variables
-    const words = [
+    const originalWords = [
         "vaccinate",
         "calcium",
         "solstice",
@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "except"
     ];
     
+    let words = [];
     let currentWordIndex = -1;
     let currentWord = '';
     let score = 0;
@@ -32,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize the game
     function initGame() {
+        // Randomize the words
+        words = [...originalWords].sort(() => Math.random() - 0.5);
         totalWordsDisplay.textContent = words.length;
         spellingInput.disabled = true;
         submitButton.disabled = true;
@@ -145,6 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         replayButton.addEventListener('click', () => {
             // Reset game
+            words = [...originalWords].sort(() => Math.random() - 0.5); // Randomize again on replay
             currentWordIndex = -1;
             score = 0;
             scoreDisplay.textContent = score;
