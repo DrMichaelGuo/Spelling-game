@@ -1,25 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Game variables
     const originalWords = [
-        "vaccinate",
-        "calcium",
-        "solstice",
-        "specific",
-        "decision",
-        "tolerance",
-        "pacific",
-        "council",
-        "merciful",
-        "except",
-        "sensible",
-        "sackguard",
-        "satisfaction",
-        "scowled",
-        "scrabbled",
-        "separate",
-        "sensational",
-        "screamed",
-        "suggested"
+        "knowledge",
+        "knickerbocker",
+        "knucklehead",
+        "knickknack",
+        "knackered",
+        "knife point",
+        "knickers",
+        "knittable",
+        "knapsack",
+        "knuckleball" 
     ];
     
     let words = [];

@@ -22,16 +22,16 @@ A web-based spelling practice game designed to help children aged 9-11 improve t
 ## Word List
 
 The game includes the following words:
-- vaccinate
-- calcium
-- solstice
-- specific
-- decision
-- tolerance
-- pacific
-- council
-- merciful
-- except
+- knowledge
+- knickerbocker
+- knucklehead
+- knickknack
+- knackered
+- knife point
+- knickers
+- knittable
+- knapsack
+- knuckleball
 
 ## Browser Compatibility
 
