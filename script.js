@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "knucklehead",
         "knickknack",
         "knackered",
-        "knife point",
+        "knifepoint",
         "knickers",
         "knittable",
         "knapsack",
